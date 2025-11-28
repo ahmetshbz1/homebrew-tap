@@ -23,9 +23,9 @@
         </ul>
       ]]></description>
       <enclosure 
-        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.2.0/Synapse.dmg"
-        sparkle:edSignature="rMR63BVPUmzp8pHuDiigxhs3gTwBYIBi1Ay9RD6fzLRzfHXLbhIF7tlymzk5LYNchvp7jfK4ZWsbO0hZNzkiDw=="
-        length="3044880"
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.2.0/Synapse.zip"
+        sparkle:edSignature="Z0x+PWRKOE1EEV/xWv4w1oPTfbumZW6XAILFnGqO418zSPFyDSabwptyxmnfKpMzAT4s702DytMo1WEzAOlMBQ=="
+        length="2245537"
         type="application/octet-stream"
       />
     </item>

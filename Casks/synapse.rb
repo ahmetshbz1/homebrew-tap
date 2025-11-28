@@ -1,8 +1,8 @@
 cask "synapse" do
   version "1.2.0"
-  sha256 "d16aa51e2c76c8589f9f2d8423339a3cc7451bf23d76656f2c7dfeffbbc3eef7"
+  sha256 "c90cb04c899f90fd5b9da02a65454767a8da5b176c2571efe3ffb1c2e8026250"
 
-  url "https://github.com/ahmetshbz1/homebrew-tap/releases/download/v#{version}/Synapse.dmg"
+  url "https://github.com/ahmetshbz1/homebrew-tap/releases/download/v#{version}/Synapse.zip"
   name "Synapse"
   desc "Modern clipboard manager"
   homepage "https://github.com/ahmetshbz1/homebrew-tap"
