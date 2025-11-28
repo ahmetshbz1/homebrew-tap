@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Synapse Updates</title>
+    <link>https://raw.githubusercontent.com/ahmetshbz1/homebrew-tap/main/appcast.xml</link>
+    <description>Most recent updates to Synapse</description>
+    <language>en</language>
+    
+    <item>
+      <title>Version 1.1.1</title>
+      <pubDate>Thu, 28 Nov 2025 23:22:00 +0300</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>UI improvements and performance optimizations</li>
+          <li>Detail button is now always visible for better accessibility</li>
+          <li>Clear all now asks for confirmation before deleting items</li>
+        </ul>
+        <h2>Bug Fixes</h2>
+        <ul>
+          <li>Fixed popover issues with pinned items</li>
+          <li>Fixed duplicate rendering of pinned items in the list</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.1.1/Synapse.dmg"
+        sparkle:edSignature="hB8jdlIJsQYm8uzZ6hG1UzQzglMHeCXNG+/t6jCwyP9vLvWq0bfQLLSn/8UCxH70dY3tghSA8DttIdpxvofRAA=="
+        length="2181700"
+        type="application/octet-stream"
+      />
+    </item>
+    
+  </channel>
+</rss>
