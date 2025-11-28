@@ -4,7 +4,7 @@ cask "synapse" do
 
   url "https://github.com/ahmetshbz1/homebrew-tap/releases/download/v#{version}/Synapse.dmg"
   name "Synapse"
-  desc "Modern clipboard manager for macOS"
+  desc "Modern clipboard manager"
   homepage "https://github.com/ahmetshbz1/homebrew-tap"
 
   depends_on macos: ">= :sonoma"
