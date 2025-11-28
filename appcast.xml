@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.2.4</title>
+      <pubDate>Sat, 29 Nov 2025 02:05:00 +0300</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Auto-update fix - sandbox removed</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.2.4/Synapse.zip"
+        sparkle:edSignature="Z0ntTb8paV3T8fPmLjj3qRqU20EwZdPASjYkgBBRX7OOy5A4jKVS3XPA7zKAPPP4CFavTcqZzBWVsoee9IP3Dw=="
+        length="2225849"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.2.3</title>
       <pubDate>Sat, 29 Nov 2025 01:50:00 +0300</pubDate>
       <sparkle:version>6</sparkle:version>
