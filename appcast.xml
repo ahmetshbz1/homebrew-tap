@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.3.14</title>
+      <pubDate>Sat, 29 Nov 2025 08:20:00 +0300</pubDate>
+      <sparkle:version>114</sparkle:version>
+      <sparkle:shortVersionString>1.3.14</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Toast improvements</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.3.14/Synapse.zip"
+        sparkle:edSignature="RmaYaE1F4UUop8fpl/+5b6l9BkIfaS4fI0h5RKQC/f9zRK1CDsdd8Xk8BYkcbcZOCtYmJiHl6BZZDLEwfu5rBw=="
+        length="2250736"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.3.13</title>
       <pubDate>Sat, 29 Nov 2025 08:10:00 +0300</pubDate>
       <sparkle:version>113</sparkle:version>
