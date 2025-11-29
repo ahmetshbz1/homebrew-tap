@@ -7,6 +7,27 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.3.21</title>
+      <pubDate>Sat, 29 Nov 2025 21:00:00 +0300</pubDate>
+      <sparkle:version>121</sparkle:version>
+      <sparkle:shortVersionString>1.3.21</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <synapse:forceUpdate>true</synapse:forceUpdate>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Critical fixes and improvements.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.3.21/Synapse.zip"
+        sparkle:edSignature="tgZDhKfeL+tUxn4WHh8CAqKYCi0skCz7Rt6UplSHQiJxfH5U5X2SJMFoboUWIVH0+DR/fbBbvRumVfLYbJ0RAQ=="
+        length="2253160"
+        type="application/octet-stream"
+      />
+    </item>
+   
+    <item>
       <title>Version 1.3.20</title>
       <pubDate>Sat, 29 Nov 2025 12:30:00 +0300</pubDate>
       <sparkle:version>120</sparkle:version>
