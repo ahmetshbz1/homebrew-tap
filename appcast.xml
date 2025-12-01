@@ -6,13 +6,12 @@
     <description>Most recent updates to Synapse</description>
     <language>en</language>
     
-    <item>
+    <item synapse_forceUpdate="true">
       <title>Version 1.4.0</title>
       <pubDate>Mon, 01 Dec 2025 05:45:00 +0300</pubDate>
       <sparkle:version>124</sparkle:version>
       <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <synapse:forceUpdate>true</synapse:forceUpdate>
       <description><![CDATA[
         <h2>What's New in v1.4</h2>
         <ul>
