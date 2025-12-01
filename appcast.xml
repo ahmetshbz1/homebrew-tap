@@ -7,6 +7,30 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.4.0</title>
+      <pubDate>Mon, 01 Dec 2025 05:45:00 +0300</pubDate>
+      <sparkle:version>124</sparkle:version>
+      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <synapse:forceUpdate>true</synapse:forceUpdate>
+      <description><![CDATA[
+        <h2>What's New in v1.4</h2>
+        <ul>
+          <li><strong>Monaco Editor Integration:</strong> Powerful code editing with syntax highlighting.</li>
+          <li><strong>Theme Support:</strong> Choose between Light, Dark, or System themes.</li>
+          <li><strong>User Settings:</strong> Customize your experience with new preference options.</li>
+          <li><strong>Performance & Stability:</strong> Improved performance with 500KB copy limit and Swift 6 concurrency fixes.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.4.0/Synapse.zip"
+        sparkle:edSignature="HlAHQmotG82kh1BD8Sao30wg6JyFTTxgNAS0JI9lnVYj9dJ4itmQ35XA72BZ1stjRL1SyyX4v6hu1X+EZ4+iCQ=="
+        length="3012629"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.3.23</title>
       <pubDate>Sun, 30 Nov 2025 14:30:00 +0300</pubDate>
       <sparkle:version>123</sparkle:version>
