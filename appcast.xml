@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:synapse="http://synapse.app/ns">
   <channel>
     <title>Synapse Updates</title>
     <link>https://raw.githubusercontent.com/ahmetshbz1/homebrew-tap/main/appcast.xml</link>
     <description>Most recent updates to Synapse</description>
     <language>en</language>
     
-    <item synapse_forceUpdate="true">
+    <item>
       <title>Version 1.4.0</title>
       <pubDate>Mon, 01 Dec 2025 05:45:00 +0300</pubDate>
       <sparkle:version>124</sparkle:version>
       <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <synapse:forceUpdate>true</synapse:forceUpdate>
       <description><![CDATA[
         <h2>What's New in v1.4</h2>
         <ul>
