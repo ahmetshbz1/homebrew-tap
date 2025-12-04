@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.4.2</title>
+      <pubDate>Wed, 04 Dec 2025 17:15:00 +0300</pubDate>
+      <sparkle:version>126</sparkle:version>
+      <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.4.2</h2>
+        <ul>
+          <li><strong>Copy Sound Picker:</strong> Choose from 10 unique sounds for copy feedback.</li>
+          <li><strong>Sound Preview:</strong> Hear sounds instantly when selecting from the dropdown.</li>
+          <li><strong>Bundle Fix:</strong> Copy sounds now properly included in app bundle.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.4.2/Synapse.zip"
+        sparkle:edSignature="CjP5cWN2fm+v+LlmKrHGONN/2livSSxgav1oacEO+h+EkW3uYpmIjKtUNhb+F5hvbHxqInPXromYadPeBcEACA=="
+        length="2599808"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.4.1</title>
       <pubDate>Wed, 04 Dec 2025 16:45:00 +0300</pubDate>
       <sparkle:version>125</sparkle:version>
