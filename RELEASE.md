@@ -13,35 +13,57 @@
 ### 1. Versiyon Güncelle
 
 ```bash
-# project.pbxproj'da güncelle:
-# - MARKETING_VERSION = X.Y.Z
-# - CURRENT_PROJECT_VERSION = N (build number)
+cd /Users/ahmet/Desktop/projeler-bireysel/SynapseDev/apps/macos
 
-# Veya sed ile:
-cd /Users/ahmet/Desktop/projeler-bireysel/Synapse
-sed -i '' 's/MARKETING_VERSION = 1.2.1/MARKETING_VERSION = 1.2.2/g' Synapse.xcodeproj/project.pbxproj
-sed -i '' 's/CURRENT_PROJECT_VERSION = 4/CURRENT_PROJECT_VERSION = 5/g' Synapse.xcodeproj/project.pbxproj
+# project.pbxproj'da güncelle:
+sed -i '' 's/MARKETING_VERSION = OLD/MARKETING_VERSION = NEW/g' Synapse.xcodeproj/project.pbxproj
+sed -i '' 's/CURRENT_PROJECT_VERSION = OLD/CURRENT_PROJECT_VERSION = NEW/g' Synapse.xcodeproj/project.pbxproj
 ```
 
-### 2. Release Build Al
+### 2. What's New Ekranını Güncelle (Eğer Featured Update Varsa)
+
+Eğer bu sürümde interaktif özellik tanıtımı yapılacaksa:
+
+```swift
+// FeaturedUpdate.swift - Yeni case ekle
+enum FeaturedUpdate: String, CaseIterable, Identifiable {
+    case copySoundPicker = "copy_sound_picker"
+    // Yeni özellik ekle:
+    // case newFeature = "new_feature"
+    
+    var targetVersion: String {
+        switch self {
+        case .copySoundPicker: return "1.4.2"
+        // case .newFeature: return "X.Y.Z"
+        }
+    }
+    // ... title, icon, color da eklenmeli
+}
+
+// WhatsNewView.swift
+// 1. featuredSection(for:) switch'ine yeni case ekle
+// 2. Yeni section view oluştur (örn: newFeatureSection)
+// 3. releaseNotes array'ini bu sürüme göre güncelle
+```
+
+### 3. Release Build Al
 
 ```bash
-cd /Users/ahmet/Desktop/projeler-bireysel/Synapse
+cd /Users/ahmet/Desktop/projeler-bireysel/SynapseDev/apps/macos
 xcodebuild -project Synapse.xcodeproj -scheme Synapse -configuration Release -derivedDataPath build clean build
 ```
 
-### 3. ZIP Oluştur ve İmzala
+### 4. ZIP Oluştur ve İmzala
 
 ```bash
-cd /Users/ahmet/Desktop/projeler-bireysel/Synapse/build/Build/Products/Release
+cd /Users/ahmet/Desktop/projeler-bireysel/SynapseDev/apps/macos/build/Build/Products/Release
 
 # ZIP oluştur
 rm -f Synapse.zip
 ditto -c -k --keepParent Synapse.app Synapse.zip
 
-# Sparkle ile imzala (edSignature ve length alacaksın)
-# sign_update path'i build klasöründe olacak
-/Users/ahmet/Desktop/projeler-bireysel/Synapse/build/SourcePackages/artifacts/sparkle/Sparkle/bin/sign_update Synapse.zip
+# Sparkle ile imzala
+/Users/ahmet/Desktop/projeler-bireysel/SynapseDev/apps/macos/build/SourcePackages/artifacts/sparkle/Sparkle/bin/sign_update Synapse.zip
 ```
 
 **Çıktı örneği:**
@@ -49,30 +71,27 @@ ditto -c -k --keepParent Synapse.app Synapse.zip
 sparkle:edSignature="ABC123..." length="2224938"
 ```
 
-### 4. GitHub Release Oluştur
+### 5. GitHub Release Oluştur
 
 ```bash
-cd /Users/ahmet/Desktop/projeler-bireysel/Synapse
-
-# GitHub Release oluştur (ZIP'i direkt build klasöründen kullan)
 gh release create vX.Y.Z ./build/Build/Products/Release/Synapse.zip \
   --repo ahmetshbz1/homebrew-tap \
   --title "Synapse vX.Y.Z" \
   --notes "Release notes..."
 ```
 
-### 5. appcast.xml Güncelle
+### 6. appcast.xml Güncelle
 
-`/Users/ahmet/Desktop/projeler-bireysel/homebrew-tap-temp/appcast.xml` dosyasına yeni item ekle:
+`/Users/ahmet/Desktop/projeler-bireysel/SynapseDev/brew-tap/appcast.xml` dosyasına yeni item ekle (en üste):
 
 ```xml
 <item>
   <title>Version X.Y.Z</title>
-  <pubDate>Sat, 29 Nov 2025 01:30:00 +0300</pubDate>
+  <pubDate>Wed, 04 Dec 2025 17:15:00 +0300</pubDate>
   <sparkle:version>N</sparkle:version>  <!-- build number -->
   <sparkle:shortVersionString>X.Y.Z</sparkle:shortVersionString>
   <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-  <!-- Opsiyonel: Bu sürüm zorunlu güncelleme olsun (Automatic Updates toggle'ını yok sayar) -->
+  <!-- Opsiyonel: Zorunlu güncelleme -->
   <synapse:forceUpdate>true</synapse:forceUpdate>
   <description><![CDATA[
     <h2>What's New</h2>
@@ -90,94 +109,110 @@ gh release create vX.Y.Z ./build/Build/Products/Release/Synapse.zip \
 </item>
 ```
 
-### 6. appcast.xml Push Et
+### 7. Push Et
 
 ```bash
-cd /Users/ahmet/Desktop/projeler-bireysel/homebrew-tap-temp
-git add appcast.xml
+cd /Users/ahmet/Desktop/projeler-bireysel/SynapseDev/brew-tap
+git add -A
 git commit -m "feat: vX.Y.Z"
 git push
 ```
 
-### 7. Web Changelog Güncelle (Opsiyonel)
-
-`/Users/ahmet/Desktop/projeler-bireysel/Synapse/web/src/app/data/changelog.ts` dosyasına yeni entry ekle:
-
-```typescript
-{
-  version: "vX.Y.Z",
-  date: "November 29, 2025",
-  sections: [
-    {
-      title: "What's New",
-      items: [
-        "Feature 1",
-        "Bug fix 1",
-      ],
-    },
-  ],
-},
-```
-
-**Not:** Yeni entry'yi en üste ekle (array'in başına).
-
-### 8. Web Hero Güncelle (Opsiyonel)
-
-`/Users/ahmet/Desktop/projeler-bireysel/Synapse/web/src/app/sections/Hero.tsx` dosyasında:
-- Versiyon badge'i güncelle: `vX.Y.Z Available Now`
-- Download linkini güncelle: `https://github.com/ahmetshbz1/homebrew-tap/releases/download/vX.Y.Z/Synapse.zip`
-
-### 9. Synapse Repo'sunu Commit Et
+### 8. Web Changelog Güncelle (Opsiyonel)
 
 ```bash
-cd /Users/ahmet/Desktop/projeler-bireysel/Synapse
-git add -A
-git commit -m "chore: vX.Y.Z release"
-git push origin main
+cd /Users/ahmet/Desktop/projeler-bireysel/SynapseDev/apps/web
+bun run scripts/generate-changelog-from-appcast.ts
+vercel --prod
 ```
 
 ---
 
-## Tam Örnek (v1.3.19)
+## What's New Featured Updates Sistemi
 
-```bash
-# 1. Versiyon güncelle
-cd /Users/ahmet/Desktop/projeler-bireysel/Synapse
-sed -i '' 's/MARKETING_VERSION = 1.3.18;/MARKETING_VERSION = 1.3.19;/g' Synapse.xcodeproj/project.pbxproj
-sed -i '' 's/CURRENT_PROJECT_VERSION = 118;/CURRENT_PROJECT_VERSION = 119;/g' Synapse.xcodeproj/project.pbxproj
+### Dosya Yapısı
 
-# 2. Build
-xcodebuild -project Synapse.xcodeproj -scheme Synapse -configuration Release -derivedDataPath build clean build 2>&1 | tail -5
-
-# 3. ZIP + İmzala
-cd build/Build/Products/Release
-rm -f Synapse.zip
-ditto -c -k --keepParent Synapse.app Synapse.zip
-/Users/ahmet/Desktop/projeler-bireysel/Synapse/build/SourcePackages/artifacts/sparkle/Sparkle/bin/sign_update Synapse.zip
-# Çıktı: sparkle:edSignature="..." length="..."
-
-# 4. GitHub Release
-cd /Users/ahmet/Desktop/projeler-bireysel/Synapse
-gh release create v1.3.19 ./build/Build/Products/Release/Synapse.zip \
-  --repo ahmetshbz1/homebrew-tap \
-  --title "Synapse v1.3.19" \
-  --notes "- Feature 1\n- Bug fix 1"
-
-# 5. appcast.xml güncelle (en üste ekle)
-# /Users/ahmet/Desktop/projeler-bireysel/homebrew-tap-temp/appcast.xml
-
-# 6. Push
-cd /Users/ahmet/Desktop/projeler-bireysel/homebrew-tap-temp
-git add appcast.xml
-git commit -m "feat: v1.3.19"
-git push
-
-# 7. Synapse repo commit
-cd /Users/ahmet/Desktop/projeler-bireysel/Synapse
-git add -A
-git commit -m "chore: v1.3.19 release"
-git push
 ```
+Synapse/Features/WhatsNew/
+├── FeaturedUpdate.swift      # Enum - hangi sürümde hangi özellik gösterilecek
+└── WhatsNewView.swift        # UI - featured section'lar ve release notes
+```
+
+### FeaturedUpdate Enum
+
+Her yeni interaktif özellik için:
+
+1. **Case ekle**: `case myFeature = "my_feature"`
+2. **targetVersion belirle**: Bu özellik hangi versiyonda gösterilecek
+3. **Metadata ekle**: title, icon, color
+
+```swift
+enum FeaturedUpdate: String, CaseIterable, Identifiable {
+    case copySoundPicker = "copy_sound_picker"
+    
+    var targetVersion: String {
+        switch self {
+        case .copySoundPicker: return "1.4.2"
+        }
+    }
+    
+    var title: String {
+        switch self {
+        case .copySoundPicker: return "Copy Sounds"
+        }
+    }
+    
+    var icon: String {
+        switch self {
+        case .copySoundPicker: return "speaker.wave.2.fill"
+        }
+    }
+    
+    var color: Color {
+        switch self {
+        case .copySoundPicker: return .pink
+        }
+    }
+}
+```
+
+### WhatsNewView Yapısı
+
+1. **AppStorage bindings**: Özellik için gerekli ayarlar
+2. **featuredSection(for:)**: Switch case ile section yönlendirmesi
+3. **Section View**: Toggle, Picker veya diğer interaktif elementler
+4. **releaseNotes**: "Other Updates" bölümündeki statik notlar
+
+```swift
+// 1. AppStorage ekle
+@AppStorage("playSoundOnCopy") private var playSoundOnCopy: Bool = false
+
+// 2. Switch case ekle
+private func featuredSection(for feature: FeaturedUpdate) -> some View {
+    switch feature {
+    case .copySoundPicker:
+        copySoundSection
+    }
+}
+
+// 3. Section view oluştur (toggle, picker vb.)
+private var copySoundSection: some View { ... }
+
+// 4. Release notes güncelle
+private var releaseNotes: [ReleaseNote] {
+    [
+        ReleaseNote(icon: "speaker.wave.3.fill", iconColor: .pink, title: "Premium Audio", description: "...")
+    ]
+}
+```
+
+### Versiyon Sonrası Temizlik
+
+Bir sonraki sürümde eski featured update'i kaldırabilirsin:
+- FeaturedUpdate enum'dan case'i sil
+- WhatsNewView'dan ilgili section'ı sil
+
+
 
 ---
 
@@ -185,10 +220,12 @@ git push
 
 | Dosya | Konum |
 |-------|-------|
-| Proje | `/Users/ahmet/Desktop/projeler-bireysel/Synapse` |
-| homebrew-tap-temp | `/Users/ahmet/Desktop/projeler-bireysel/homebrew-tap-temp` |
-| appcast.xml | `homebrew-tap-temp/appcast.xml` |
-| sign_update | `build/SourcePackages/artifacts/sparkle/Sparkle/bin/sign_update` |
+| Proje | `/Users/ahmet/Desktop/projeler-bireysel/SynapseDev/apps/macos` |
+| brew-tap | `/Users/ahmet/Desktop/projeler-bireysel/SynapseDev/brew-tap` |
+| appcast.xml | `brew-tap/appcast.xml` |
+| sign_update | `apps/macos/build/SourcePackages/artifacts/sparkle/Sparkle/bin/sign_update` |
+| FeaturedUpdate | `apps/macos/Synapse/Features/WhatsNew/FeaturedUpdate.swift` |
+| WhatsNewView | `apps/macos/Synapse/Features/WhatsNew/WhatsNewView.swift` |
 
 ## Önemli Notlar
 
@@ -197,5 +234,5 @@ git push
 - Yeni item'ı appcast.xml'in **en üstüne** ekle (en yeni üstte)
 - ZIP imzası (edSignature) her build'de değişir, mutlaka yenile
 - GitHub Release URL formatı: `https://github.com/ahmetshbz1/homebrew-tap/releases/download/vX.Y.Z/Synapse.zip`
-- `sign_update` path'i build klasöründe: `build/SourcePackages/artifacts/sparkle/Sparkle/bin/sign_update`
-- GitHub Release oluştururken ZIP'i kopyalamaya gerek yok, direkt build klasöründen kullan
+- **FeaturedUpdate targetVersion**: Her özellik sadece belirtilen versiyonda gösterilir
+- **releaseNotes**: Her sürümde güncellenmeli
