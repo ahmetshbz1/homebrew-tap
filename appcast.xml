@@ -7,6 +7,30 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.4.1</title>
+      <pubDate>Wed, 04 Dec 2025 16:45:00 +0300</pubDate>
+      <sparkle:version>125</sparkle:version>
+      <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.4.1</h2>
+        <ul>
+          <li><strong>Monaco Editor Toggle:</strong> Enable/disable Monaco code editor from Settings > Appearance.</li>
+          <li><strong>Onboarding Update:</strong> New editor preference page in onboarding flow.</li>
+          <li><strong>What's New Screen:</strong> Interactive feature toggles when updating.</li>
+          <li><strong>Performance:</strong> Faster keyboard navigation in search results.</li>
+          <li><strong>Bug Fixes:</strong> Code toolbar visibility when Monaco is disabled.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.4.1/Synapse.zip"
+        sparkle:edSignature="2lPPrkCAQSFod0xX1H/KUUnq1pvH1RphofKta7Xv2PwBXr20zhHaXY3y2pWLmkQWtj89lPy5mBmkCuUsYsIkDQ=="
+        length="2436960"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.4.0</title>
       <pubDate>Mon, 01 Dec 2025 05:45:00 +0300</pubDate>
       <sparkle:version>124</sparkle:version>
