@@ -7,6 +7,27 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.4.3</title>
+      <pubDate>Thu, 05 Dec 2025 14:21:00 +0300</pubDate>
+      <sparkle:version>127</sparkle:version>
+      <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.4.3</h2>
+        <ul>
+          <li><strong>Fullscreen Focus Fix:</strong> Keyboard navigation (arrow keys) now works correctly when popover is opened while a fullscreen app is active.</li>
+          <li><strong>Improved Accessibility:</strong> Better window focus handling for reliable keyboard input.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.4.3/Synapse.zip"
+        sparkle:edSignature="ZGk+3/X+gI1DwoCtS9gvHW5/fVc5Luq7EHakjPVq36zoMZkY5WBDqnhTTFbwinqRH10EuT4utN5QLi+ej4dWBQ=="
+        length="2600351"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.4.2</title>
       <pubDate>Wed, 04 Dec 2025 17:15:00 +0300</pubDate>
       <sparkle:version>126</sparkle:version>
