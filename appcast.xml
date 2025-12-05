@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.4.6</title>
+      <pubDate>Thu, 05 Dec 2025 18:24:00 +0300</pubDate>
+      <sparkle:version>130</sparkle:version>
+      <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.4.6</h2>
+        <ul>
+          <li><strong>Dock Icon Fix:</strong> Improved window closing to properly hide dock icon.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.4.6/Synapse.zip"
+        sparkle:edSignature="VUio1nDAGlR8YTu3NBJP3Qzdr7/4kTntu+rmc1LZePb67zGv/6+r7lC/GUiHDQ6A4s+qxkGg+tZ7MA3kRs4ODw=="
+        length="2600399"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.4.5</title>
       <pubDate>Thu, 05 Dec 2025 18:20:00 +0300</pubDate>
       <sparkle:version>129</sparkle:version>
