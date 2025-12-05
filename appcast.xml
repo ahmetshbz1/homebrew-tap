@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.4.4</title>
+      <pubDate>Thu, 05 Dec 2025 18:14:00 +0300</pubDate>
+      <sparkle:version>128</sparkle:version>
+      <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.4.4</h2>
+        <ul>
+          <li><strong>Dock Icon Fix:</strong> App icon now properly hides from dock after closing What's New window.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.4.4/Synapse.zip"
+        sparkle:edSignature="FfSs/1HSQKjspn+G/D4zhasp+30AG6RAN6PuUSAWr8oVDQmt+GVWInU3uQSju+LpQb70xjHZJD67kOpfK8u/DA=="
+        length="2600729"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.4.3</title>
       <pubDate>Thu, 05 Dec 2025 14:21:00 +0300</pubDate>
       <sparkle:version>127</sparkle:version>
