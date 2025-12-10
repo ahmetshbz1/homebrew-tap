@@ -7,6 +7,27 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.4.7</title>
+      <pubDate>Tue, 10 Dec 2025 17:55:00 +0300</pubDate>
+      <sparkle:version>131</sparkle:version>
+      <sparkle:shortVersionString>1.4.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.4.7</h2>
+        <ul>
+          <li><strong>Launch at Login Fixed:</strong> Resolved an issue where the app wouldn't start automatically on verify.</li>
+          <li><strong>Enhanced Reliability:</strong> Improved settings synchronization and error handling.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.4.7/Synapse.zip"
+        sparkle:edSignature="pkD951IMf4z7vz0bc54VGsTJZU+8fowuyHF9/yUlN8rHQfi6br/NWU8eMRmpP9pURf3s60wmvEOOn8Jm7l4LBg=="
+        length="2601213"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.4.6</title>
       <pubDate>Thu, 05 Dec 2025 18:24:00 +0300</pubDate>
       <sparkle:version>130</sparkle:version>
