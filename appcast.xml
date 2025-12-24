@@ -7,6 +7,29 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.4.8</title>
+      <pubDate>Tue, 24 Dec 2025 17:37:00 +0300</pubDate>
+      <sparkle:version>132</sparkle:version>
+      <sparkle:shortVersionString>1.4.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.4.8</h2>
+        <ul>
+          <li><strong>Performance Optimizations:</strong> Improved memory management with enhanced caching and faster clipboard operations.</li>
+          <li><strong>Stability Improvements:</strong> Fixed memory leaks in text expansion and improved error handling throughout.</li>
+          <li><strong>Reliable Copy & Paste:</strong> Enhanced clipboard operations with PNG support and better app compatibility.</li>
+          <li><strong>Code Architecture:</strong> Modular refactoring for improved maintainability and code quality.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.4.8/Synapse.zip"
+        sparkle:edSignature="lQY7fq2cT2tvgvV35ua2KhArRGvaYKKHgMrcGvj+m29dMGLeFXrSoEJi90E1LZJ1RIaWngS9mH+c5RtMD+K5CA=="
+        length="2551886"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.4.7</title>
       <pubDate>Tue, 10 Dec 2025 17:55:00 +0300</pubDate>
       <sparkle:version>131</sparkle:version>
