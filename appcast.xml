@@ -7,6 +7,29 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.5.0</title>
+      <pubDate>Thu, 02 Jan 2026 15:50:00 +0300</pubDate>
+      <sparkle:version>133</sparkle:version>
+      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.5.0</h2>
+        <ul>
+          <li><strong>Keyboard Navigation Rewrite:</strong> Completely rewritten keyboard navigation with ID-based selection. Arrow keys, Enter and Option+Space now work reliably.</li>
+          <li><strong>Faster Focus Handling:</strong> Improved focus management when opening via hotkey. No more missed keystrokes.</li>
+          <li><strong>Bug Fixes:</strong> Fixed Option+Space adding space to search field. Fixed race conditions in text expansion.</li>
+          <li><strong>Code Quality:</strong> Simplified AppDelegate focus logic, removed dead code, improved thread safety.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.5.0/Synapse.zip"
+        sparkle:edSignature="1+cK47HdW778xqaYsMrnxdklAk377un8N26+Q/WbRkUJgR18PU+Vdf1eQ96r/JStgyynfr7aroNWsKxPbsO4Bg=="
+        length="2625748"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 1.4.8</title>
       <pubDate>Tue, 24 Dec 2025 17:37:00 +0300</pubDate>
       <sparkle:version>132</sparkle:version>
@@ -21,7 +44,7 @@
           <li><strong>Code Architecture:</strong> Modular refactoring for improved maintainability and code quality.</li>
         </ul>
       ]]></description>
-      <enclosure 
+      <enclosure
         url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.4.8/Synapse.zip"
         sparkle:edSignature="lQY7fq2cT2tvgvV35ua2KhArRGvaYKKHgMrcGvj+m29dMGLeFXrSoEJi90E1LZJ1RIaWngS9mH+c5RtMD+K5CA=="
         length="2551886"
