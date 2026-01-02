@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.6.1</title>
+      <pubDate>Thu, 02 Jan 2026 16:51:00 +0300</pubDate>
+      <sparkle:version>135</sparkle:version>
+      <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.6.1</h2>
+        <ul>
+          <li><strong>Update Check Fix:</strong> Fixed infinite spinner on manual update check. Added 30-second timeout.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.6.1/Synapse.zip"
+        sparkle:edSignature="sa7ioDSncpbT7HGP2lXX6Z8LyWiphtPn9k8iAObbLKJVfU1VeqvfYkppx84xXTLYJRPH7wFpn0yHiUfyO3mqBQ=="
+        length="2657333"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 1.6.0</title>
       <pubDate>Thu, 02 Jan 2026 16:45:00 +0300</pubDate>
       <sparkle:version>134</sparkle:version>
