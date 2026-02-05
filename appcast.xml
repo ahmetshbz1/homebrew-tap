@@ -7,6 +7,29 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.6.3</title>
+      <pubDate>Thu, 05 Feb 2026 17:30:00 +0300</pubDate>
+      <sparkle:version>137</sparkle:version>
+      <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.6.3</h2>
+        <ul>
+          <li><strong>Database Optimization:</strong> Implemented aggressive image compression. This fixes the issue where the database could grow to massive sizes (16GB+).</li>
+          <li><strong>Screenshot Previews:</strong> Fixed an issue where screenshots were not showing previews. They now appear correctly as images.</li>
+          <li><strong>Smart Metadata:</strong> Copied image files now display their original filenames instead of generic text.</li>
+          <li><strong>Performance:</strong> Significantly reduced disk usage and improved app responsiveness.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.6.3/Synapse.zip"
+        sparkle:edSignature="xRCueyAKAHlfDwKyDxAHbhs5toBkfdx4W1e7JifDoHw2DHw0ZJPurgbtdrIYMGCazJ/1EV99n/5XL3hvAeSHCw=="
+        length="2663124"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.6.2</title>
       <pubDate>Thu, 02 Jan 2026 17:10:00 +0300</pubDate>
       <sparkle:version>136</sparkle:version>

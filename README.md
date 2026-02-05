@@ -51,9 +51,9 @@ Synapse uses Sparkle for in-app updates:
 
 ## Latest Version
 
-**v1.4.2** - Copy Sound Picker
-- 10 unique copy sounds
-- Sound preview on selection
-- Bundle fix for sound files
+**v1.6.3**
+- Database optimization (Image compression)
+- Screenshot preview fix
+- Performance improvements
 
 See [Releases](https://github.com/ahmetshbz1/homebrew-tap/releases) for all versions.
