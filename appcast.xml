@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.6.4</title>
+      <pubDate>Thu, 05 Feb 2026 18:00:00 +0300</pubDate>
+      <sparkle:version>138</sparkle:version>
+      <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Bug Fix in v1.6.4</h2>
+        <ul>
+          <li><strong>Database Size Fix:</strong> We fixed a bug where the "Database Size" in Settings was showing 16GB+. It was incorrectly calculating the size of your entire Application Support folder! It now correctly shows only Synapse's data size (likely just a few MBs).</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.6.4/Synapse.zip"
+        sparkle:edSignature="K+hUO2NIyWlvwdZxKZ2cuAo6iS3VcuCRO4qpLzEyThKHnHPoUE4ktW+u0TbAU2qkiqmey5dlejhJ54pJA/UaAQ=="
+        length="2663607"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.6.3</title>
       <pubDate>Thu, 05 Feb 2026 17:30:00 +0300</pubDate>
       <sparkle:version>137</sparkle:version>

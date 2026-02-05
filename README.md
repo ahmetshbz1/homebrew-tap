@@ -51,6 +51,10 @@ Synapse uses Sparkle for in-app updates:
 
 ## Latest Version
 
+**v1.6.4**
+- Fixed Database Size calculation bug
+- Showing correct storage usage
+
 **v1.6.3**
 - Database optimization (Image compression)
 - Screenshot preview fix
