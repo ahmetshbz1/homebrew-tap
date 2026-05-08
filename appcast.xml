@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.0.1</title>
+      <pubDate>Fri, 08 May 2026 05:43:42 +0300</pubDate>
+      <sparkle:version>141</sparkle:version>
+      <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.0.1</h2>
+        <ul>
+          <li><strong>What's New After Auto-Update:</strong> Fixed an issue where the What's New screen didn't appear after an automatic update. The stored version marker was set too early, causing the welcome screen to be skipped.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.0.1/Synapse.zip"
+        sparkle:edSignature="OkEVaEvcUYz5k0TBn1s1wacblEEtGAmAvFntjy9kSw/AS06cF9hqW0XVRBSCgehzijXydAnjz7XF2zbtK292AA=="
+        length="2697102"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.0.0</title>
       <pubDate>Fri, 08 May 2026 05:36:59 +0300</pubDate>
       <sparkle:version>140</sparkle:version>
