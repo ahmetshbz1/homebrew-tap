@@ -7,6 +7,30 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.0.0</title>
+      <pubDate>Fri, 08 May 2026 05:36:59 +0300</pubDate>
+      <sparkle:version>140</sparkle:version>
+      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.0.0</h2>
+        <ul>
+          <li><strong>Crash-Free SwiftData:</strong> Resolved a fault crash that could occur when the app deactivated after deleting clipboard items. The deduplication cache now invalidates on every delete path.</li>
+          <li><strong>Focus Restoration:</strong> Closing the popover now returns focus to the app you were working in, not the Finder. Auto-paste targets the correct window every time.</li>
+          <li><strong>Safer Data Persistence:</strong> Lifecycle events flush pending SwiftData changes. Store path is now explicit to prevent data from being orphaned on future macOS releases.</li>
+          <li><strong>Correct Dock Behavior:</strong> Show in Dock preference is now honored across What's New, Onboarding, and update flows. No more unexpected Dock icons after auto-updates.</li>
+          <li><strong>Streamlined Releases:</strong> Release notes are now data-driven and the release pipeline ships as a single command.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.0.0/Synapse.zip"
+        sparkle:edSignature="77HOjRlNFvOttq9HrVjYyTO4dN3Ilsip78yq3+cgVs/BIpLAVBPKktXTgogseQOnnsHe0L6Li2LbemM7doFNBA=="
+        length="2696893"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 1.6.5</title>
       <pubDate>Fri, 08 May 2026 04:54:00 +0300</pubDate>
       <sparkle:version>139</sparkle:version>
