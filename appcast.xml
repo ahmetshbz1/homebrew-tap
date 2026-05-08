@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.0.2</title>
+      <pubDate>Fri, 08 May 2026 19:21:41 +0300</pubDate>
+      <sparkle:version>142</sparkle:version>
+      <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.0.2</h2>
+        <ul>
+          <li><strong>Maintenance Release:</strong> Internal build and packaging improvements. No user-facing changes.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.0.2/Synapse.zip"
+        sparkle:edSignature="R9Lds0e8sahYn5PVfIwdqRBg9+tYzMFUxp3deilOTs+8XGKrTN94N9YaCtdoU5ERe9YSmxoPMaJiDFyK4D1WBA=="
+        length="2697182"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.0.1</title>
       <pubDate>Fri, 08 May 2026 05:43:42 +0300</pubDate>
       <sparkle:version>141</sparkle:version>
