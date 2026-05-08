@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.0.2</title>
+      <pubDate>Fri, 08 May 2026 15:02:43 +0300</pubDate>
+      <sparkle:version>142</sparkle:version>
+      <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.0.2</h2>
+        <ul>
+          <li><strong>Cleaner Architecture:</strong> AppDelegate, ClipboardMonitor, and Settings views have been decomposed into focused, single-responsibility modules for better maintainability.</li>
+          <li><strong>Smaller Files, Faster Builds:</strong> Large source files split into dedicated components. Net code reduction improves compile times and readability.</li>
+          <li><strong>Improved Clipboard Processing:</strong> Content processing logic extracted into a dedicated ClipboardContentProcessor for clearer separation of concerns.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.0.2/Synapse.zip"
+        sparkle:edSignature="vPk6kbfu9lIIgizjjnzEfvOJU4ri0j+hinq0Ban73ODD5PLElQ9sdYzWt/p3pabPJr/KG+UQ2nT3NNrLGb3lBw=="
+        length="2772441"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.0.1</title>
       <pubDate>Fri, 08 May 2026 05:43:42 +0300</pubDate>
       <sparkle:version>141</sparkle:version>
