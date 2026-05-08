@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.0.6</title>
+      <pubDate>Fri, 08 May 2026 20:20:28 +0300</pubDate>
+      <sparkle:version>146</sparkle:version>
+      <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.0.6</h2>
+        <ul>
+          <li><strong>Paste Target Fix:</strong> Pressing Enter on a clipboard item now reliably pastes into the previously focused app. Resolved a regression where the popover stayed open and the text landed in Synapse's own search field on macOS 14 and later.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.0.6/Synapse.zip"
+        sparkle:edSignature="acpOyOFKWNf5hLdPkwa4GQ1xUE4GsQah7vRJUCtud+UEowsNgSc9G72E/by0JafmOnocw5PAyN3Vou6Y+nYoAg=="
+        length="2700398"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.0.5</title>
       <pubDate>Fri, 08 May 2026 19:48:41 +0300</pubDate>
       <sparkle:version>145</sparkle:version>
