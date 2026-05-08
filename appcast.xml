@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.0.3</title>
+      <pubDate>Fri, 08 May 2026 15:28:31 +0300</pubDate>
+      <sparkle:version>143</sparkle:version>
+      <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.0.3</h2>
+        <ul>
+          <li><strong>Popover Toggle Fix:</strong> Fixed an issue where clicking the menu bar icon to close the popover would cause it to immediately reopen in a loop. A cooldown mechanism now prevents the race condition between transient close and button action.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.0.3/Synapse.zip"
+        sparkle:edSignature="XO9EGBFtPs/w+zdaihLEqYdoktQCux8vL4H841dHNUYOSEULiZlroMH9hZT3CefN1K5tLUDOAOmM3A8V2lbNCw=="
+        length="2772973"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.0.2</title>
       <pubDate>Fri, 08 May 2026 15:02:43 +0300</pubDate>
       <sparkle:version>142</sparkle:version>
