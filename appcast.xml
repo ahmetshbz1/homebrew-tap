@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.6.5</title>
+      <pubDate>Fri, 08 May 2026 04:54:00 +0300</pubDate>
+      <sparkle:version>139</sparkle:version>
+      <sparkle:shortVersionString>1.6.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Stability Fixes in v1.6.5</h2>
+        <ul>
+          <li><strong>Random Crash Fix:</strong> Resolved a SwiftData fault crash that could occur when the app deactivated after deleting clipboard items. The deduplication cache now properly invalidates after deletions.</li>
+          <li><strong>Unified Contexts:</strong> Consolidated SwiftData contexts across the app. Text expansion and cleanup operations now share the main context, eliminating cross-thread race conditions.</li>
+          <li><strong>Safer Deletions:</strong> Clearing history or deleting individual items no longer leaves stale references behind, preventing subsequent autosave failures.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v1.6.5/Synapse.zip"
+        sparkle:edSignature="jVeQwunRTRV36JfysPPZDgzRaa70gkq3elhifKnr/wYpOa4O5wp0wK1w79O95M9VYkhOxm6p6mgxGzTmelfvDA=="
+        length="2678093"
+        type="application/octet-stream"
+      />
+    </item>
+    
+    <item>
       <title>Version 1.6.4</title>
       <pubDate>Thu, 05 Feb 2026 18:00:00 +0300</pubDate>
       <sparkle:version>138</sparkle:version>
