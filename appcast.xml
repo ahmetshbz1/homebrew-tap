@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.0.4</title>
+      <pubDate>Fri, 08 May 2026 19:39:31 +0300</pubDate>
+      <sparkle:version>144</sparkle:version>
+      <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.0.4</h2>
+        <ul>
+          <li><strong>Update Channel Recovery:</strong> Restored the automatic update feed after a release pipeline reset. Your Mac will now receive future updates normally.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.0.4/Synapse.zip"
+        sparkle:edSignature="u2jJ/0uWNiknY/iiC/ADj6jgoQY1q1ANy4mJK5oz6aBh/TPXejhf8dLO6e92SArH1Psu4fdYY/4xOa6yRHC9BA=="
+        length="2697264"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.0.2</title>
       <pubDate>Fri, 08 May 2026 19:21:41 +0300</pubDate>
       <sparkle:version>142</sparkle:version>
