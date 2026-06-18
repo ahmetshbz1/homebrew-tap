@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.1.0</title>
+      <pubDate>Thu, 18 Jun 2026 15:02:35 +0200</pubDate>
+      <sparkle:version>147</sparkle:version>
+      <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.1.0</h2>
+        <ul>
+          <li><strong>Liquid Glass Design:</strong> The search bar, filter button, and tab bar now use macOS 26's Liquid Glass material for a more native, fluid look that floats above your clipboard history.</li>
+          <li><strong>Rock-Solid Reliability:</strong> Fixed rare clipboard and text-expansion edge cases that could drop items or mishandle restored content, and hardened global hotkey and copy detection against background-thread issues.</li>
+          <li><strong>Modernized Engine:</strong> Rebuilt on Swift 6 with strict concurrency safety for fewer hangs and a snappier, more dependable experience across the app.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.1.0/Synapse.zip"
+        sparkle:edSignature="TnFx7zDhhU3dXdNErHYxIS5W9ws0jS+XAkkFH6ponECI5ZiehMgiuaSZpoJ+TgBmHageGMgxDpIWE/Z23ptsDQ=="
+        length="2746918"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.0.6</title>
       <pubDate>Fri, 08 May 2026 20:20:28 +0300</pubDate>
       <sparkle:version>146</sparkle:version>
