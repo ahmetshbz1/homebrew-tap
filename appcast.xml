@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.2.0</title>
+      <pubDate>Mon, 24 Aug 2026 23:17:46 +0200</pubDate>
+      <sparkle:version>149</sparkle:version>
+      <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.2.0</h2>
+        <ul>
+          <li><strong>Pinned Power Tools:</strong> Reorder pinned boards with up/down controls, see pinned count at a glance, and keep them perfectly ordered. Your email collections stay exactly where you want them.</li>
+          <li><strong>Email Board Quick Copy:</strong> Any clipboard item with 3+ emails now shows a smart badge with one-tap Copy all. Perfect for the pinned email board — all addresses copied one per line.</li>
+          <li><strong>Search That Shows:</strong> Matching text is highlighted in bold blue (exact and fuzzy), empty states offer Clear filters, and the footer shows pinned count plus all keyboard hints.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.2.0/Synapse.zip"
+        sparkle:edSignature="OmjaZNnXE/Vymk4FwzPZLrgNb4Vb7X9nM4WA2ZEbyBXb8lWoepnizQcRjrVhjndptq43mFzaQT/Tovb1B0coAw=="
+        length="2812003"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.1.1</title>
       <pubDate>Mon, 24 Aug 2026 23:07:52 +0200</pubDate>
       <sparkle:version>148</sparkle:version>

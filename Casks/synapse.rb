@@ -1,6 +1,6 @@
 cask "synapse" do
-  version "2.1.1"
-  sha256 "0ab429c7ae76d6a3c22ef8ffb522b6016120325bfdbd4598665201a035e545f4"
+  version "2.2.0"
+  sha256 "566384f8726ec70ec24559afcb721e68aef5135f6edb11d904d2b758c0555439"
 
   url "https://github.com/ahmetshbz1/homebrew-tap/releases/download/v#{version}/Synapse.zip"
   name "Synapse"
