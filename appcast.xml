@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.3.0</title>
+      <pubDate>Mon, 24 Aug 2026 23:33:07 +0200</pubDate>
+      <sparkle:version>151</sparkle:version>
+      <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.3.0</h2>
+        <ul>
+          <li><strong>E-Posta Pro Panosu:</strong> Detay penceresinde domain’e göre gruplanmış e-postalar, tek dokunuşla Hepsini Kopyala, CSV ve Mail ile gönder. Pinned mail panon artık tam bir araç.</li>
+          <li><strong>Sırala ve Yönet:</strong> Sabit panoları anında yeniden sırala, domain özetini satırda gör ve gereksiz tekrarları otomatik temizle.</li>
+          <li><strong>Akıllı Vurgu:</strong> Aramada eşleşen metin mavi kalın vurgulanır, e-posta rozeti bağlama göre belirir ve boş durumlarda tek tıkla filtre temizlenir.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.3.0/Synapse.zip"
+        sparkle:edSignature="0JxyxFw8rBwOOJCVebHlUWlH0DPrrtR7M2A+P4flLj2nIEgK3qK/DgpqzEXr359MD1F7I5R4lSUv0+H0WqIiDg=="
+        length="2842138"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.2.0</title>
       <pubDate>Mon, 24 Aug 2026 23:17:46 +0200</pubDate>
       <sparkle:version>149</sparkle:version>
