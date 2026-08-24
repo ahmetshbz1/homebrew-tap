@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.4.0</title>
+      <pubDate>Mon, 24 Aug 2026 23:44:41 +0200</pubDate>
+      <sparkle:version>152</sparkle:version>
+      <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.4.0</h2>
+        <ul>
+          <li><strong>Resimden Metne OCR:</strong> Kopyalanan resimlerdeki metin Vision ile otomatik çıkarılır ve aramada bulunur. Ekran görüntüsündeki e-posta veya kod artık aranabilir.</li>
+          <li><strong>Regex Arama:</strong> Arama çubuğundaki .* düğmesi ile fuzzy yerine regex kullan. Karmaşık sorgular için güçlü, normal aramada hâlâ hızlı.</li>
+          <li><strong>Akıllı Snippet Değişkenleri:</strong> Snippet’lerde {clipboard}, {date}, {time}, {datetime} otomatik genişler. Tek tetikle günün tarihi veya panodaki metni yerleştir.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.4.0/Synapse.zip"
+        sparkle:edSignature="KR3ZNtd/iqp1i8GTd3Ul3Nv2H0p0Hjr2Lecyr0Zaff0PARNKOFuJW1ZZNmVfddJDIwPz6l69jHx1M9F/i01VCg=="
+        length="2854228"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.3.0</title>
       <pubDate>Mon, 24 Aug 2026 23:33:07 +0200</pubDate>
       <sparkle:version>151</sparkle:version>
