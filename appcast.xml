@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.5.0</title>
+      <pubDate>Mon, 24 Aug 2026 23:49:59 +0200</pubDate>
+      <sparkle:version>153</sparkle:version>
+      <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.5.0</h2>
+        <ul>
+          <li><strong>Hassas Veri Kalkanı:</strong> PESEL, IBAN, kart ve şifre içeren panolar otomatik algılanır, satırda kırmızı kalkanla işaretlenir ve pinli değilse 10 dakika sonra kendiliğinden silinir.</li>
+          <li><strong>Zincir Pano:</strong> Zincir modunda seçtiğin panolar birikir; tek tıkla hepsini alt alta kopyala ve yapıştır. 5 ayrı kopyayı tek hamlede birleştir.</li>
+          <li><strong>Daha Akıcı His:</strong> Hassas uyarılar ve zincir barı cam hissini bozmadan eklendi; footer ve arama aynı akıcılıkla çalışır.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.5.0/Synapse.zip"
+        sparkle:edSignature="nuJyirQXdMJ5QmK6pO43WCx4Nei9t27MzSjebEKopO+4Pa3WL3zkaVLraMlALa15gndnTMASq0WLEcxDMT8DCA=="
+        length="2884085"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.4.0</title>
       <pubDate>Mon, 24 Aug 2026 23:44:41 +0200</pubDate>
       <sparkle:version>152</sparkle:version>
