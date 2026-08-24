@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.6.0</title>
+      <pubDate>Mon, 24 Aug 2026 23:54:28 +0200</pubDate>
+      <sparkle:version>154</sparkle:version>
+      <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.6.0</h2>
+        <ul>
+          <li><strong>Likit Cam 2.0:</strong> Arama alanı ve filtre butonları artık interaktif cam ile ışıkta parlıyor; footer ve zincir barı cam hissini koruyor.</li>
+          <li><strong>Komut Paleti ⌘K:</strong> ⌘K ile anında palet: filtreleri temizle, zinciri aç/kapat, regex toggle, tümünü temizle ve ayarları aç tek tuşta.</li>
+          <li><strong>Daha Akıcı:</strong> Pinned reorder, e-posta rozeti ve zincir barı 60fps animasyonlarla cilalandı; boş durumlar tek tıkla toparlanıyor.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.6.0/Synapse.zip"
+        sparkle:edSignature="rxLDnE01MmxXmqoc1HqC6VdOdCwVkmvPYOuC/axbKBMEc7vdRUgg6oS6vwGkSdMPD46LyPyZ/ouKNEx2pFXbBQ=="
+        length="2913124"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.5.0</title>
       <pubDate>Mon, 24 Aug 2026 23:49:59 +0200</pubDate>
       <sparkle:version>153</sparkle:version>
