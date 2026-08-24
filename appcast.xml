@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.1.1</title>
+      <pubDate>Mon, 24 Aug 2026 23:07:52 +0200</pubDate>
+      <sparkle:version>148</sparkle:version>
+      <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.1.1</h2>
+        <ul>
+          <li><strong>Pinned Never Disappears:</strong> Pinned boards with dozens of emails now always stay visible. Fixed a bug where items beyond the 300-item window were hidden from the Pinned section.</li>
+          <li><strong>Blazing Menu Bar:</strong> Rapid clicks on the menu bar icon no longer stutter. Toggle is debounced at 80ms with transition guards and the popover opens in 20ms for an instant, fluid feel.</li>
+          <li><strong>Search & Stability Polish:</strong> Fuzzy search is faster with single-pass scoring, URL detection is stricter, editing a pinned item checks for duplicates, and VoiceOver labels were added.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.1.1/Synapse.zip"
+        sparkle:edSignature="SbR0xQ8OokOn5Q6KlTYQ2QKVVjIbWMEb60hIr5hH6vR06fyfXz/XQIs4e3A8t0KM1PutKzVNAkLUAXxUlndMAw=="
+        length="2774526"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.1.0</title>
       <pubDate>Thu, 18 Jun 2026 15:02:35 +0200</pubDate>
       <sparkle:version>147</sparkle:version>
