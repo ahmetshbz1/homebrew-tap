@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.7.1</title>
+      <pubDate>Wed, 26 Aug 2026 18:24:36 +0200</pubDate>
+      <sparkle:version>156</sparkle:version>
+      <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.7.1</h2>
+        <ul>
+          <li><strong>Menü Bar Düzeltmesi:</strong> Sol tıkta menü yerine doğrudan popover açılır. Menü bar tıklaması yeniden kesintisiz ve hızlı.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.7.1/Synapse.zip"
+        sparkle:edSignature="wxqg3YyRtBG6NazcJy7DKkDCmLJsjkmE2dpAnbgLjjS8zrwyL3CYAyxKlgRlEKtt8H7p91xx0Pg4uD8R/yQCDA=="
+        length="2972599"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.7.0</title>
       <pubDate>Wed, 26 Aug 2026 18:14:16 +0200</pubDate>
       <sparkle:version>155</sparkle:version>
