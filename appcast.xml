@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 2.7.0</title>
+      <pubDate>Wed, 26 Aug 2026 18:14:16 +0200</pubDate>
+      <sparkle:version>155</sparkle:version>
+      <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What’s New in v2.7.0</h2>
+        <ul>
+          <li><strong>Akıllı Sıra ve Renk:</strong> Pinned bölüm artık daraltılabilir, renk kodları satırda canlı önizlenir ve hassas veriler tek bakışta ayırt edilir.</li>
+          <li><strong>Editörü Büyüt ve OCR:</strong> Detay editörü sürükleyerek büyütülür, kaydedildi göstergesi gutter’da belirir ve görsellerde OCR metni tek tıkla kopyalanır.</li>
+          <li><strong>Zincir ve Arama Cilas:</strong> Zincir barı canlı sayaçla netleşti, regex hataları kırmızı çerçeveyle uyarır ve menü bardan hızlı komutlar gelir.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ahmetshbz1/homebrew-tap/releases/download/v2.7.0/Synapse.zip"
+        sparkle:edSignature="iaUZYxQRvi1CMg0QFHcJw5rLZhurpxldiVhHgTys6WJi9IYSzaN1TVM+X1d72tsEFSMzNQGOtafU24US1B46Dw=="
+        length="2973644"
+        type="application/octet-stream"
+      />
+    </item>
+
+    <item>
       <title>Version 2.6.0</title>
       <pubDate>Mon, 24 Aug 2026 23:54:28 +0200</pubDate>
       <sparkle:version>154</sparkle:version>
